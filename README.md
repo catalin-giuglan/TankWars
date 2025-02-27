@@ -1,5 +1,3 @@
----
-
 # TankWars - Joc 2D cu tancuri
 
 ## Descriere
@@ -38,7 +36,3 @@
 - ✅ Control simultan pentru doi jucători, oferind o experiență competitivă
 - ✅ Traiectorie previzibilă a proiectilelor pentru un gameplay strategic
 - ✅ Posibilitatea de resetare a vieții pentru fiecare jucător
-
----
-
-I hope you like the updated format!
