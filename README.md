@@ -1,38 +1,38 @@
-# TankWars - Joc 2D cu tancuri
+# TankWars - 2D Tank Battle Game
 
-## Descriere
+## Description
 
-**TankWars** este un joc 2D de luptă între tancuri, implementat în C++ folosind OpenGL. Jocul implică doi jucători care controlează tancuri poziționate pe un teren generat procedural și încearcă să se elimine reciproc.
+**TankWars** is a 2D tank battle game implemented in C++ using OpenGL. The game involves two players who control tanks positioned on a procedurally generated terrain and battle each other.
 
-## Gameplay și controale
+## Gameplay and Controls
 
-### Tancul Jucătorului 1
+### Player 1 Tank
 
-- **Deplasare:** `A/D`
-- **Reglarea unghiului tunului:** `W/S`
-- **Tragere cu proiectil:** `SPACE`
-- **Resetare viață:** `R`
+- **Movement:** `A/D`
+- **Adjust Cannon Angle:** `W/S`
+- **Fire Projectile:** `SPACE`
+- **Reset Health:** `R`
 
-### Tancul Jucătorului 2
+### Player 2 Tank
 
-- **Deplasare:** `Săgeți Stânga/Dreapta`
-- **Reglarea unghiului tunului:** `Săgeți Sus/Jos`
-- **Tragere cu proiectil:** `ENTER`
-- **Resetare viață:** `CTRL Dreapta`
+- **Movement:** `Left/Right Arrows`
+- **Adjust Cannon Angle:** `Up/Down Arrows`
+- **Fire Projectile:** `ENTER`
+- **Reset Health:** `Right CTRL`
 
-## Arhitectura codului
+## Code Architecture
 
-- **lab3.cpp și lab3.h:** Implementarea principală a jocului, inclusiv terenul, logica proiectilelor și coliziunile.
-- **lab3_vis2D.cpp și lab3_vis2D.h:** Funcții pentru randare 2D și viewport.
-- **object2D.h:** Funcții pentru generarea obiectelor grafice (tancuri, proiectile, teren etc.).
+- **lab3.cpp and lab3.h:** Main game implementation, including terrain, projectile logic, and collisions.
+- **lab3_vis2D.cpp and lab3_vis2D.h:** Functions for 2D rendering and viewport.
+- **object2D.h:** Functions for generating graphical objects (tanks, projectiles, terrain, etc.).
 
-## Funcționalități implementate
+## Implemented Features
 
-- ✅ Generarea terenului cu funcții sinusoidale pentru un mediu dinamic
-- ✅ Simulare gravitațională pentru proiectile, influențând traiectoria acestora
-- ✅ Coliziuni între proiectile și tancuri, determinând scăderea vieții
-- ✅ Modificarea terenului la impactul proiectilelor, creând cratere
-- ✅ Bară de viață pentru fiecare tanc, vizibilă în timpul jocului
-- ✅ Control simultan pentru doi jucători, oferind o experiență competitivă
-- ✅ Traiectorie previzibilă a proiectilelor pentru un gameplay strategic
-- ✅ Posibilitatea de resetare a vieții pentru fiecare jucător
+- ✅ Terrain generation with sinusoidal functions for a dynamic environment
+- ✅ Gravitational simulation for projectiles, affecting their trajectory
+- ✅ Collisions between projectiles and tanks, decreasing health
+- ✅ Terrain modification on projectile impact, creating craters
+- ✅ Health bar for each tank, visible during gameplay
+- ✅ Simultaneous control for two players, offering a competitive experience
+- ✅ Predictable projectile trajectory for strategic gameplay
+- ✅ Ability to reset health for each player
